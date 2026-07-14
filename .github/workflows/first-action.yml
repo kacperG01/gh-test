@@ -6,6 +6,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Print 1
-        run: echo "O nie..."
-      - name: Print 2
-        run: echo "...skasowalem Windowsa."
+        run: |
+          echo "O nie..."
+          echo "...skasowalem Windowsa."        
